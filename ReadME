@@ -1,0 +1,27 @@
+This program:
+*takes a YouTube channel
+*identifies key information the videos on that channel 
+*sends a tweet based on set criteria to advertise that video
+
+In order to run this program, the user needs Google and Twitter credentials. 
+
+To secure Google credentials, see the following guide: https://developers.google.com/youtube/v3/getting-started
+
+To secture Twitter credentials, see here: https://apps.twitter.com/
+
+Once you have your credentials: 
+
+Create a Google Auth file: 
+    1) Create a file called "google_auth.py"
+    2) In that file, type the following: 
+        api_key = "[insert your key here]"
+    3) Save that file in the same folder where you have saved youtube_data_scraping.py
+
+Create a Twitter Auth file:
+    1) Create a file called "twitter_auth.py"
+    2) In that file, type the following: 
+        consumer_key        = '[insert your key here]'
+        consumer_secret     = '[insert your key here]'
+        access_token        = '[insert your token here]'
+        access_token_secret = '[insert your token here]'
+    3) Save that file in the same folder where you ahve saved youtube_data_scraping.py
