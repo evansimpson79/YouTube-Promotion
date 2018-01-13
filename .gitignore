@@ -1,0 +1,6 @@
+/client_secret.json
+/google_auth.py
+/twitter_auth.py
+.ipynb_checkpoints/
+__pycache__/
+
